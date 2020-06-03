@@ -28,7 +28,11 @@ namespace Lottery
             }
 
         }
-
+        /// <summary>
+        /// searches for same number on the right place in LotteryNumber Array
+        /// </summary>
+        /// <param name="userString"></param>
+        /// <returns>hitCounter</returns>
         public int CheckForHits(string userString)
         {
             int numberToCheck = 0;
